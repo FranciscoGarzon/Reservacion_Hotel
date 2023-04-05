@@ -31,5 +31,15 @@ namespace Reservacion_Hotel
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            var signup = new Form2();
+            signup.ShowDialog();
+
+        }
+
+       
     }
 }
