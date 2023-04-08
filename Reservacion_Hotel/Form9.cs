@@ -16,5 +16,25 @@ namespace Reservacion_Hotel
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.Text == "Administrador")
+            {
+                this.Hide();
+                var adminAccount = new Form2();
+                adminAccount.ShowDialog();
+            }
+            else if (comboBox1.Text == "Recepcionista")
+            {
+                this.Hide();
+                var login = new Form10();
+                login.ShowDialog();
+            }
+            else if (comboBox1.Text == "Cliente")
+            {
+                //
+            }
+        }
     }
 }
