@@ -34,12 +34,24 @@ namespace Reservacion_Hotel
 
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+        
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var login = new Form9();
+            login.ShowDialog();
         }
     }
 }
