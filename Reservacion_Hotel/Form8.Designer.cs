@@ -39,13 +39,14 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(218)))), ((int)(((byte)(206)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(493, 385);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(154, 60);
             this.button1.TabIndex = 36;
             this.button1.Text = "Ingresar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
@@ -101,11 +102,12 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.LightSalmon;
-            this.button2.Font = new System.Drawing.Font("Corbel Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(41, 35);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(107)))), ((int)(((byte)(71)))));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(46, 33);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(123, 60);
+            this.button2.Size = new System.Drawing.Size(153, 64);
             this.button2.TabIndex = 37;
             this.button2.Text = "Regresar";
             this.button2.UseVisualStyleBackColor = false;
@@ -115,6 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(230)))), ((int)(((byte)(190)))));
             this.ClientSize = new System.Drawing.Size(1065, 494);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
