@@ -38,5 +38,12 @@ namespace Reservacion_Hotel
                 login.ShowDialog();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var login = new Form1();
+            login.ShowDialog();
+        }
     }
 }
