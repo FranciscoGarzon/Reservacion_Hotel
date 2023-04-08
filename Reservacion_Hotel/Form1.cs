@@ -41,8 +41,8 @@ namespace Reservacion_Hotel
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            var signin = new Form3();
+
+            var signin = new Form6();
             signin.ShowDialog();
         }
     }
