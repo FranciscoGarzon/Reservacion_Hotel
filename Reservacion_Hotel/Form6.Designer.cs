@@ -43,7 +43,7 @@
             this.comboBox1.Location = new System.Drawing.Point(50, 201);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(531, 33);
+            this.comboBox1.Size = new System.Drawing.Size(531, 46);
             this.comboBox1.TabIndex = 2;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -54,13 +54,13 @@
             this.label1.Location = new System.Drawing.Point(219, 148);
             this.label1.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 25);
+            this.label1.Size = new System.Drawing.Size(278, 36);
             this.label1.TabIndex = 3;
             this.label1.Text = "Iniciar sesión como";
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(234, 309);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(186, 48);
@@ -71,7 +71,7 @@
             // 
             // Form6
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 38F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(597, 443);
             this.Controls.Add(this.button1);
