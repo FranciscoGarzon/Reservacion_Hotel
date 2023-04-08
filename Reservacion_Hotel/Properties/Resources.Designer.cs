@@ -79,15 +79,5 @@ namespace Reservacion_Hotel.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pexels_pixabay_258154 {
-            get {
-                object obj = ResourceManager.GetObject("pexels-pixabay-258154", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
