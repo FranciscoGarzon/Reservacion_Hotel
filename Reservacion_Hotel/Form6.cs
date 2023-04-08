@@ -49,7 +49,6 @@ namespace Reservacion_Hotel
                 var signup = new Form3();
                 signup.ShowDialog();
             }
-
         }
     }
 }
