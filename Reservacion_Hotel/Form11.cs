@@ -10,24 +10,29 @@ using System.Windows.Forms;
 
 namespace Reservacion_Hotel
 {
-    public partial class Form10 : Form
+    public partial class Form11 : Form
     {
-        public Form10()
+        public Form11()
         {
             InitializeComponent();
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox5_TextChanged(object sender, EventArgs e)
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void textBox9_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
         {
 
         }
@@ -35,8 +40,8 @@ namespace Reservacion_Hotel
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var signup = new Form9();
-            signup.ShowDialog();
+            var login = new Form9();
+            login.ShowDialog();
         }
     }
 }

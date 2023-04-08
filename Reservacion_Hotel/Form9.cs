@@ -33,7 +33,9 @@ namespace Reservacion_Hotel
             }
             else if (comboBox1.Text == "Cliente")
             {
-                //
+                this.Hide();
+                var login = new Form11();
+                login.ShowDialog();
             }
         }
     }
