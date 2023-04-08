@@ -17,33 +17,16 @@ namespace Reservacion_Hotel
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            this.Hide();
-            var signup = new Form2();
+            var signup = new Form9();
             signup.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
-            var signin = new Form6();
-            signin.ShowDialog();
+            var login = new Form6();
+            login.ShowDialog();
         }
     }
 }
