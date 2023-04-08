@@ -63,9 +63,9 @@ namespace Reservacion_Hotel.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logo {
+        internal static System.Drawing.Bitmap hotel_principal {
             get {
-                object obj = ResourceManager.GetObject("logo", resourceCulture);
+                object obj = ResourceManager.GetObject("hotel-principal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Reservacion_Hotel.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pexels_pixabay_258154 {
+        internal static System.Drawing.Bitmap logo {
             get {
-                object obj = ResourceManager.GetObject("pexels-pixabay-258154", resourceCulture);
+                object obj = ResourceManager.GetObject("logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

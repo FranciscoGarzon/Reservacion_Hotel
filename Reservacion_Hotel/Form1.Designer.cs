@@ -77,11 +77,11 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Reservacion_Hotel.Properties.Resources.pexels_pixabay_258154;
-            this.pictureBox2.Location = new System.Drawing.Point(9, 172);
+            this.pictureBox2.Image = global::Reservacion_Hotel.Properties.Resources.hotel_principal;
+            this.pictureBox2.Location = new System.Drawing.Point(33, 170);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(786, 510);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.Size = new System.Drawing.Size(739, 427);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
@@ -102,7 +102,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(806, 694);
+            this.ClientSize = new System.Drawing.Size(806, 613);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
