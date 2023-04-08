@@ -120,7 +120,7 @@
     <None Include="Resources\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\hotel-principal.jpg" />
+    <None Include="Resources\HotelPrincipal1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

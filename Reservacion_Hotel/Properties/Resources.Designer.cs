@@ -63,9 +63,9 @@ namespace Reservacion_Hotel.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hotel_principal {
+        internal static System.Drawing.Bitmap HotelPrincipal {
             get {
-                object obj = ResourceManager.GetObject("hotel-principal", resourceCulture);
+                object obj = ResourceManager.GetObject("HotelPrincipal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
