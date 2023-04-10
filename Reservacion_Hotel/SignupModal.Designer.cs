@@ -1,6 +1,6 @@
 ﻿namespace Reservacion_Hotel
 {
-    partial class Form9
+    partial class SignupModal
     {
         /// <summary>
         /// Required designer variable.

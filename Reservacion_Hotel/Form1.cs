@@ -19,13 +19,13 @@ namespace Reservacion_Hotel
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var signup = new Form9();
+            Form signup = new SignupModal();
             signup.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var login = new Form6();
+            Form login = new Form6();
             login.ShowDialog();
         }
     }
