@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Reservacion_Hotel
 {
-    public partial class SignupModal : Form
+    public partial class LoginModal : Form
     {
-        public SignupModal()
+        public LoginModal()
         {
             InitializeComponent();
         }
@@ -22,36 +22,35 @@ namespace Reservacion_Hotel
             if (comboBox1.Text == "Administrador")
             {
                 this.Close();
-                Form createAdminAccount = new Form2();
-                createAdminAccount.Show();
+                Form adminAccount = new Form7();
+                adminAccount.Show();
 
                 foreach (Form formulario in Application.OpenForms)
                 {
-                    if (formulario != createAdminAccount)
+                    if (formulario != adminAccount)
                         formulario.Hide();
                 }
             }
             else if (comboBox1.Text == "Cliente")
             {
-                this.Close();
-                Form createClientAccount = new Form11();
-                createClientAccount.Show();
+                Form clientAccount = new Form3();
+                clientAccount.Show();
 
                 foreach (Form formulario in Application.OpenForms)
                 {
-                    if (formulario != createClientAccount)
+                    if (formulario != clientAccount)
                         formulario.Hide();
                 }
             }
             else if (comboBox1.Text == "Recepcionista")
             {
                 this.Close();
-                Form createReceptionistAccount = new Form10();
-                createReceptionistAccount.Show();
+                Form receptionistAccount = new Form8();
+                receptionistAccount.Show();
 
                 foreach (Form formulario in Application.OpenForms)
                 {
-                    if (formulario != createReceptionistAccount)
+                    if (formulario != receptionistAccount)
                         formulario.Hide();
                 }
             }

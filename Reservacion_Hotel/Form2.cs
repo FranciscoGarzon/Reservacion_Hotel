@@ -20,7 +20,13 @@ namespace Reservacion_Hotel
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
-            var login = new Form6();
+
+            foreach (Form formulario in Application.OpenForms)
+            {
+                formulario.Show();
+            }
+
+            Form login = new LoginModal();
             login.ShowDialog();
         }
 
@@ -33,13 +39,8 @@ namespace Reservacion_Hotel
                 formulario.Show();
             }
 
-            var login = new SignupModal();
-            login.ShowDialog();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            Form signup = new SignupModal();
+            signup.ShowDialog();
         }
     }
 }
