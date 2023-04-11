@@ -162,9 +162,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\logo.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\HotelPrincipal1.jpg" />
   </ItemGroup>
   <ItemGroup>
