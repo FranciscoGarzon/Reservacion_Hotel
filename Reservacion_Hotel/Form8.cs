@@ -17,31 +17,6 @@ namespace Reservacion_Hotel
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -49,8 +24,14 @@ namespace Reservacion_Hotel
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            var login = new Form6();
+            this.Close();
+
+            foreach (Form formulario in Application.OpenForms)
+            {
+                formulario.Show();
+            }
+
+            Form login = new LoginModal();
             login.ShowDialog();
         }
     }

@@ -25,7 +25,7 @@ namespace Reservacion_Hotel
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form login = new Form6();
+            Form login = new LoginModal();
             login.ShowDialog();
         }
     }
