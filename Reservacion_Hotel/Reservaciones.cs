@@ -17,7 +17,12 @@ namespace Reservacion_Hotel
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void RegresoBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EnviarBtn_Click(object sender, EventArgs e)
         {
 
         }
