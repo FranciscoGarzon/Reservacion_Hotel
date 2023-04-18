@@ -152,9 +152,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(453, 155);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(257, 37);
+            this.label1.Size = new System.Drawing.Size(238, 37);
             this.label1.TabIndex = 14;
-            this.label1.Text = "Reservaciones2";
+            this.label1.Text = "Reservaciones";
             // 
             // RegresoBtn
             // 
