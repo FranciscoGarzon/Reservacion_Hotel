@@ -19,10 +19,10 @@ namespace Reservacion_Hotel
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (comboBox1.Text == "Administrador")
+            if (DesplegableOpciones.Text == "Administrador")
             {
                 this.Close();
-                Form adminAccount = new Form7();
+                Form adminAccount = new IngresoAdministrador();
                 adminAccount.Show();
 
                 foreach (Form formulario in Application.OpenForms)
@@ -31,9 +31,9 @@ namespace Reservacion_Hotel
                         formulario.Hide();
                 }
             }
-            else if (comboBox1.Text == "Cliente")
+            else if (DesplegableOpciones.Text == "Cliente")
             {
-                Form clientAccount = new Form3();
+                Form clientAccount = new IngresoCliente();
                 clientAccount.Show();
 
                 foreach (Form formulario in Application.OpenForms)
@@ -42,10 +42,10 @@ namespace Reservacion_Hotel
                         formulario.Hide();
                 }
             }
-            else if (comboBox1.Text == "Recepcionista")
+            else if (DesplegableOpciones.Text == "Recepcionista")
             {
                 this.Close();
-                Form receptionistAccount = new Form8();
+                Form receptionistAccount = new IngresoRecepcionista();
                 receptionistAccount.Show();
 
                 foreach (Form formulario in Application.OpenForms)

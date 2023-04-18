@@ -22,7 +22,7 @@ namespace Reservacion_Hotel
             if (comboBox1.Text == "Administrador")
             {
                 this.Close();
-                Form createAdminAccount = new Form2();
+                Form createAdminAccount = new RegistroAdministrador();
                 createAdminAccount.Show();
 
                 foreach (Form formulario in Application.OpenForms)
@@ -34,7 +34,7 @@ namespace Reservacion_Hotel
             else if (comboBox1.Text == "Cliente")
             {
                 this.Close();
-                Form createClientAccount = new Form11();
+                Form createClientAccount = new RegistroCliente();
                 createClientAccount.Show();
 
                 foreach (Form formulario in Application.OpenForms)
@@ -46,7 +46,7 @@ namespace Reservacion_Hotel
             else if (comboBox1.Text == "Recepcionista")
             {
                 this.Close();
-                Form createReceptionistAccount = new Form10();
+                Form createReceptionistAccount = new RegistroRecepcionista();
                 createReceptionistAccount.Show();
 
                 foreach (Form formulario in Application.OpenForms)

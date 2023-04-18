@@ -38,9 +38,10 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(218)))), ((int)(((byte)(206)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(218, 315);
+            this.button1.Location = new System.Drawing.Point(327, 485);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(166, 42);
+            this.button1.Size = new System.Drawing.Size(249, 65);
             this.button1.TabIndex = 7;
             this.button1.Text = "Continuar";
             this.button1.UseVisualStyleBackColor = false;
@@ -50,10 +51,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Yu Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(216, 140);
-            this.label1.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label1.Location = new System.Drawing.Point(324, 215);
+            this.label1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 25);
+            this.label1.Size = new System.Drawing.Size(230, 36);
             this.label1.TabIndex = 6;
             this.label1.Text = "Crear cuenta de";
             // 
@@ -65,10 +66,10 @@
             "Administrador",
             "Cliente",
             "Recepcionista"});
-            this.comboBox1.Location = new System.Drawing.Point(50, 201);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.comboBox1.Location = new System.Drawing.Point(75, 309);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(531, 33);
+            this.comboBox1.Size = new System.Drawing.Size(794, 46);
             this.comboBox1.TabIndex = 5;
             // 
             // button2
@@ -76,10 +77,9 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(107)))), ((int)(((byte)(71)))));
             this.button2.Font = new System.Drawing.Font("Corbel Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(11, 11);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(16, 17);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(196, 39);
+            this.button2.Size = new System.Drawing.Size(294, 60);
             this.button2.TabIndex = 34;
             this.button2.Text = "Regresar al home";
             this.button2.UseVisualStyleBackColor = false;
@@ -87,14 +87,15 @@
             // 
             // SignupModal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(230)))), ((int)(((byte)(190)))));
-            this.ClientSize = new System.Drawing.Size(597, 443);
+            this.ClientSize = new System.Drawing.Size(896, 682);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "SignupModal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crear cuenta";
