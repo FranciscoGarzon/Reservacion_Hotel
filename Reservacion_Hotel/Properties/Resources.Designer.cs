@@ -63,6 +63,16 @@ namespace Reservacion_Hotel.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Descuento {
+            get {
+                object obj = ResourceManager.GetObject("Descuento", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HotelPrincipal {
             get {
                 object obj = ResourceManager.GetObject("HotelPrincipal", resourceCulture);
@@ -76,6 +86,16 @@ namespace Reservacion_Hotel.Properties {
         internal static System.Drawing.Bitmap LogoHotel {
             get {
                 object obj = ResourceManager.GetObject("LogoHotel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Reservaciones {
+            get {
+                object obj = ResourceManager.GetObject("Reservaciones", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
