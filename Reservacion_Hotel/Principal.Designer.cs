@@ -43,9 +43,10 @@
             this.IniciarSesionBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(158)))), ((int)(((byte)(71)))));
             this.IniciarSesionBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.IniciarSesionBtn.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.IniciarSesionBtn.Location = new System.Drawing.Point(987, 49);
+            this.IniciarSesionBtn.Location = new System.Drawing.Point(658, 32);
+            this.IniciarSesionBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.IniciarSesionBtn.Name = "IniciarSesionBtn";
-            this.IniciarSesionBtn.Size = new System.Drawing.Size(206, 62);
+            this.IniciarSesionBtn.Size = new System.Drawing.Size(137, 40);
             this.IniciarSesionBtn.TabIndex = 2;
             this.IniciarSesionBtn.Text = "Iniciar sesión";
             this.IniciarSesionBtn.UseVisualStyleBackColor = false;
@@ -57,9 +58,10 @@
             this.CrearCuentaBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CrearCuentaBtn.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.CrearCuentaBtn.ForeColor = System.Drawing.Color.Black;
-            this.CrearCuentaBtn.Location = new System.Drawing.Point(732, 49);
+            this.CrearCuentaBtn.Location = new System.Drawing.Point(488, 32);
+            this.CrearCuentaBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CrearCuentaBtn.Name = "CrearCuentaBtn";
-            this.CrearCuentaBtn.Size = new System.Drawing.Size(206, 62);
+            this.CrearCuentaBtn.Size = new System.Drawing.Size(137, 40);
             this.CrearCuentaBtn.TabIndex = 3;
             this.CrearCuentaBtn.Text = "Crear cuenta";
             this.CrearCuentaBtn.UseVisualStyleBackColor = false;
@@ -69,21 +71,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 32F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.label1.Location = new System.Drawing.Point(426, 183);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(284, 119);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(275, 38);
             this.label1.TabIndex = 4;
             this.label1.Text = "Reservation.com";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Reservacion_Hotel.Properties.Resources.HotelPrincipal;
-            this.pictureBox2.Location = new System.Drawing.Point(20, 268);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(13, 174);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1173, 657);
+            this.pictureBox2.Size = new System.Drawing.Size(782, 427);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
@@ -91,28 +90,29 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(24, 25);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 16);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(67, 65);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(206)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(1209, 958);
+            this.ClientSize = new System.Drawing.Size(806, 573);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.CrearCuentaBtn);
             this.Controls.Add(this.IniciarSesionBtn);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
