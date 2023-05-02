@@ -53,7 +53,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Reservacion_Hotel.Properties.Resources.Reservaciones
+            this.pictureBox3.Image = global::Reservacion_Hotel.Properties.Resources.Reservaciones;
             this.pictureBox3.Location = new System.Drawing.Point(478, 232);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
@@ -73,7 +73,6 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
