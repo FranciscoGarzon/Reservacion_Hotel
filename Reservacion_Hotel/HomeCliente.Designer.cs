@@ -35,6 +35,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.IniciarSesionBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -103,12 +104,27 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Reservaciones";
             // 
+            // IniciarSesionBtn
+            // 
+            this.IniciarSesionBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(158)))), ((int)(((byte)(71)))));
+            this.IniciarSesionBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.IniciarSesionBtn.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.IniciarSesionBtn.Location = new System.Drawing.Point(658, 32);
+            this.IniciarSesionBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.IniciarSesionBtn.Name = "IniciarSesionBtn";
+            this.IniciarSesionBtn.Size = new System.Drawing.Size(137, 40);
+            this.IniciarSesionBtn.TabIndex = 10;
+            this.IniciarSesionBtn.Text = "Cerrar sesión";
+            this.IniciarSesionBtn.UseVisualStyleBackColor = false;
+            this.IniciarSesionBtn.Click += new System.EventHandler(this.IniciarSesionBtn_Click);
+            // 
             // HomeCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(206)))), ((int)(((byte)(213)))));
             this.ClientSize = new System.Drawing.Size(806, 573);
+            this.Controls.Add(this.IniciarSesionBtn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox3);
@@ -134,5 +150,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button IniciarSesionBtn;
     }
 }
