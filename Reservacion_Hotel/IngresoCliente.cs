@@ -29,5 +29,11 @@ namespace Reservacion_Hotel
             Form login = new LoginModal();
             login.ShowDialog();
         }
+
+        private void IngresarBtn_Click(object sender, EventArgs e)
+        {
+            Form homeCliente = new HomeCliente();
+            homeCliente.ShowDialog();
+        }
     }
 }

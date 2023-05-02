@@ -53,8 +53,8 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Reservacion_Hotel.Properties.Resources.Reservaciones;
-            this.pictureBox3.Location = new System.Drawing.Point(717, 357);
+            this.pictureBox3.Image = global::Reservacion_Hotel.Properties.Resources.Reservaciones
+            this.pictureBox3.Location = new System.Drawing.Point(478, 232);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(384, 394);
@@ -66,13 +66,14 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Reservacion_Hotel.Properties.Resources.Descuento;
-            this.pictureBox2.Location = new System.Drawing.Point(108, 357);
+            this.pictureBox2.Location = new System.Drawing.Point(72, 232);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(384, 394);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -111,7 +112,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(206)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(1209, 958);
+            this.ClientSize = new System.Drawing.Size(806, 573);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox3);
@@ -120,6 +121,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "HomeCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomeCliente";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

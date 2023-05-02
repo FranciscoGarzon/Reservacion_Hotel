@@ -16,11 +16,10 @@ namespace Reservacion_Hotel
         {
             InitializeComponent();
         }
-
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             Form reservaciones = new Reservaciones();
-            login.ShowDialog();
+            reservaciones.ShowDialog();
         }
     }
 }
