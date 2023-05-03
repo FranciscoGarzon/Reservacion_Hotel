@@ -75,6 +75,7 @@
             // RegresoBtn
             // 
             this.RegresoBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(127)))), ((int)(((byte)(71)))));
+            this.RegresoBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.RegresoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RegresoBtn.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.RegresoBtn.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -89,10 +90,13 @@
             // 
             // LoginModal
             // 
+            this.AccessibleRole = System.Windows.Forms.AccessibleRole.Dialog;
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(184)))), ((int)(((byte)(195)))));
+            this.CancelButton = this.RegresoBtn;
             this.ClientSize = new System.Drawing.Size(556, 381);
+            this.ControlBox = false;
             this.Controls.Add(this.RegresoBtn);
             this.Controls.Add(this.ContinuarBtn);
             this.Controls.Add(this.label1);

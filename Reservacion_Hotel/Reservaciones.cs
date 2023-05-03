@@ -19,12 +19,10 @@ namespace Reservacion_Hotel
 
         private void RegresoBtn_Click(object sender, EventArgs e)
         {
+            this.Close();
 
-        }
-
-        private void EnviarBtn_Click(object sender, EventArgs e)
-        {
-
+            Form homeCliente = new HomeCliente();
+            homeCliente.Show();
         }
     }
 }

@@ -18,8 +18,19 @@ namespace Reservacion_Hotel
         }
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            this.Close();
             Form reservaciones = new Reservaciones();
-            reservaciones.ShowDialog();
+            reservaciones.Show();
+        }
+
+        private void IniciarSesionBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+            foreach (Form formulario in Application.OpenForms)
+            {
+                formulario.Show();
+            }
         }
     }
 }

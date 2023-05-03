@@ -21,7 +21,6 @@ namespace Reservacion_Hotel
         {
             if (DesplegableOpciones.Text == "Administrador")
             {
-                this.Close();
                 Form adminAccount = new IngresoAdministrador();
                 adminAccount.Show();
 
@@ -44,7 +43,6 @@ namespace Reservacion_Hotel
             }
             else if (DesplegableOpciones.Text == "Recepcionista")
             {
-                this.Close();
                 Form receptionistAccount = new IngresoRecepcionista();
                 receptionistAccount.Show();
 

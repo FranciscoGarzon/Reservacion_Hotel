@@ -32,8 +32,9 @@ namespace Reservacion_Hotel
 
         private void IngresarBtn_Click(object sender, EventArgs e)
         {
+            this.Close();
             Form homeCliente = new HomeCliente();
-            homeCliente.ShowDialog();
+            homeCliente.Show();
         }
     }
 }
