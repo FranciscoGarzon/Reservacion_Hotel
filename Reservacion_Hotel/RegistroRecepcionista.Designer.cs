@@ -171,6 +171,7 @@
             this.ContrasenaRecepcionista.Name = "ContrasenaRecepcionista";
             this.ContrasenaRecepcionista.Size = new System.Drawing.Size(261, 27);
             this.ContrasenaRecepcionista.TabIndex = 5;
+            this.ContrasenaRecepcionista.UseSystemPasswordChar = true;
             // 
             // label6
             // 

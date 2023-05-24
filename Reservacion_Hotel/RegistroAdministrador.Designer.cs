@@ -111,6 +111,7 @@
             this.ContrasenaAdministrador.Name = "ContrasenaAdministrador";
             this.ContrasenaAdministrador.Size = new System.Drawing.Size(261, 27);
             this.ContrasenaAdministrador.TabIndex = 4;
+            this.ContrasenaAdministrador.UseSystemPasswordChar = true;
             // 
             // label6
             // 
