@@ -33,7 +33,7 @@ namespace Reservacion_Hotel
 
         private void CrearCuentaBtn_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=MACHINE;Initial Catalog=RESERVA_HOTEL;Integrated Security=True";
+            string connectionString = "Data Source=DESKTOP-UE019OE;Initial Catalog=RESERVA_HOTEL;Integrated Security=True";
             string query = "INSERT INTO CLIENTES VALUES (@id, @name, @phone, @email, @password)";
 
             SqlConnection myConnection = new SqlConnection(connectionString);
