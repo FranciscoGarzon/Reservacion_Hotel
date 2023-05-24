@@ -53,7 +53,7 @@
             this.RegresoBtn.Margin = new System.Windows.Forms.Padding(2);
             this.RegresoBtn.Name = "RegresoBtn";
             this.RegresoBtn.Size = new System.Drawing.Size(102, 36);
-            this.RegresoBtn.TabIndex = 44;
+            this.RegresoBtn.TabIndex = 7;
             this.RegresoBtn.Text = "Regresar";
             this.RegresoBtn.UseVisualStyleBackColor = false;
             this.RegresoBtn.Click += new System.EventHandler(this.button2_Click);
@@ -63,11 +63,11 @@
             this.CrearCuentaBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(158)))), ((int)(((byte)(71)))));
             this.CrearCuentaBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CrearCuentaBtn.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.CrearCuentaBtn.Location = new System.Drawing.Point(352, 571);
+            this.CrearCuentaBtn.Location = new System.Drawing.Point(340, 522);
             this.CrearCuentaBtn.Margin = new System.Windows.Forms.Padding(2);
             this.CrearCuentaBtn.Name = "CrearCuentaBtn";
             this.CrearCuentaBtn.Size = new System.Drawing.Size(137, 40);
-            this.CrearCuentaBtn.TabIndex = 43;
+            this.CrearCuentaBtn.TabIndex = 6;
             this.CrearCuentaBtn.Text = "Crear cuenta";
             this.CrearCuentaBtn.UseVisualStyleBackColor = false;
             this.CrearCuentaBtn.Click += new System.EventHandler(this.button1_Click);
@@ -75,17 +75,17 @@
             // ApellidosRecepcionista
             // 
             this.ApellidosRecepcionista.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.ApellidosRecepcionista.Location = new System.Drawing.Point(272, 270);
+            this.ApellidosRecepcionista.Location = new System.Drawing.Point(272, 257);
             this.ApellidosRecepcionista.Margin = new System.Windows.Forms.Padding(2);
             this.ApellidosRecepcionista.Name = "ApellidosRecepcionista";
             this.ApellidosRecepcionista.Size = new System.Drawing.Size(261, 27);
-            this.ApellidosRecepcionista.TabIndex = 42;
+            this.ApellidosRecepcionista.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.label3.Location = new System.Drawing.Point(268, 249);
+            this.label3.Location = new System.Drawing.Point(268, 236);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 19);
@@ -95,17 +95,17 @@
             // NombreRecepcionista
             // 
             this.NombreRecepcionista.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.NombreRecepcionista.Location = new System.Drawing.Point(272, 199);
+            this.NombreRecepcionista.Location = new System.Drawing.Point(272, 189);
             this.NombreRecepcionista.Margin = new System.Windows.Forms.Padding(2);
             this.NombreRecepcionista.Name = "NombreRecepcionista";
             this.NombreRecepcionista.Size = new System.Drawing.Size(261, 27);
-            this.NombreRecepcionista.TabIndex = 40;
+            this.NombreRecepcionista.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.label2.Location = new System.Drawing.Point(268, 178);
+            this.label2.Location = new System.Drawing.Point(268, 168);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 19);
@@ -116,7 +116,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.label1.Location = new System.Drawing.Point(306, 116);
+            this.label1.Location = new System.Drawing.Point(309, 100);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(177, 28);
@@ -126,17 +126,17 @@
             // CorreoRecepcionista
             // 
             this.CorreoRecepcionista.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.CorreoRecepcionista.Location = new System.Drawing.Point(272, 416);
+            this.CorreoRecepcionista.Location = new System.Drawing.Point(272, 391);
             this.CorreoRecepcionista.Margin = new System.Windows.Forms.Padding(2);
             this.CorreoRecepcionista.Name = "CorreoRecepcionista";
             this.CorreoRecepcionista.Size = new System.Drawing.Size(261, 27);
-            this.CorreoRecepcionista.TabIndex = 48;
+            this.CorreoRecepcionista.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.label4.Location = new System.Drawing.Point(268, 395);
+            this.label4.Location = new System.Drawing.Point(268, 370);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 19);
@@ -146,17 +146,17 @@
             // IdentificacionRecepcionista
             // 
             this.IdentificacionRecepcionista.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.IdentificacionRecepcionista.Location = new System.Drawing.Point(272, 343);
+            this.IdentificacionRecepcionista.Location = new System.Drawing.Point(272, 324);
             this.IdentificacionRecepcionista.Margin = new System.Windows.Forms.Padding(2);
             this.IdentificacionRecepcionista.Name = "IdentificacionRecepcionista";
             this.IdentificacionRecepcionista.Size = new System.Drawing.Size(261, 27);
-            this.IdentificacionRecepcionista.TabIndex = 46;
+            this.IdentificacionRecepcionista.TabIndex = 3;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.label5.Location = new System.Drawing.Point(268, 322);
+            this.label5.Location = new System.Drawing.Point(268, 303);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(115, 19);
@@ -166,17 +166,17 @@
             // ContrasenaRecepcionista
             // 
             this.ContrasenaRecepcionista.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.ContrasenaRecepcionista.Location = new System.Drawing.Point(272, 489);
+            this.ContrasenaRecepcionista.Location = new System.Drawing.Point(272, 459);
             this.ContrasenaRecepcionista.Margin = new System.Windows.Forms.Padding(2);
             this.ContrasenaRecepcionista.Name = "ContrasenaRecepcionista";
             this.ContrasenaRecepcionista.Size = new System.Drawing.Size(261, 27);
-            this.ContrasenaRecepcionista.TabIndex = 50;
+            this.ContrasenaRecepcionista.TabIndex = 5;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.label6.Location = new System.Drawing.Point(268, 468);
+            this.label6.Location = new System.Drawing.Point(268, 438);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(98, 19);
@@ -188,7 +188,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(206)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(806, 623);
+            this.ClientSize = new System.Drawing.Size(806, 573);
             this.Controls.Add(this.ContrasenaRecepcionista);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.CorreoRecepcionista);

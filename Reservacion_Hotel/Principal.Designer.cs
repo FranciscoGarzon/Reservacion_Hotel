@@ -44,10 +44,10 @@
             this.IniciarSesionBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.IniciarSesionBtn.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.IniciarSesionBtn.Location = new System.Drawing.Point(658, 32);
-            this.IniciarSesionBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.IniciarSesionBtn.Margin = new System.Windows.Forms.Padding(2);
             this.IniciarSesionBtn.Name = "IniciarSesionBtn";
             this.IniciarSesionBtn.Size = new System.Drawing.Size(137, 40);
-            this.IniciarSesionBtn.TabIndex = 2;
+            this.IniciarSesionBtn.TabIndex = 1;
             this.IniciarSesionBtn.Text = "Iniciar sesión";
             this.IniciarSesionBtn.UseVisualStyleBackColor = false;
             this.IniciarSesionBtn.Click += new System.EventHandler(this.button2_Click);
@@ -59,10 +59,10 @@
             this.CrearCuentaBtn.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.CrearCuentaBtn.ForeColor = System.Drawing.Color.Black;
             this.CrearCuentaBtn.Location = new System.Drawing.Point(488, 32);
-            this.CrearCuentaBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CrearCuentaBtn.Margin = new System.Windows.Forms.Padding(2);
             this.CrearCuentaBtn.Name = "CrearCuentaBtn";
             this.CrearCuentaBtn.Size = new System.Drawing.Size(137, 40);
-            this.CrearCuentaBtn.TabIndex = 3;
+            this.CrearCuentaBtn.TabIndex = 2;
             this.CrearCuentaBtn.Text = "Crear cuenta";
             this.CrearCuentaBtn.UseVisualStyleBackColor = false;
             this.CrearCuentaBtn.Click += new System.EventHandler(this.button1_Click);
@@ -91,7 +91,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(16, 16);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(67, 65);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -109,7 +109,7 @@
             this.Controls.Add(this.CrearCuentaBtn);
             this.Controls.Add(this.IniciarSesionBtn);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
