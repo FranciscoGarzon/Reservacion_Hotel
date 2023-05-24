@@ -37,9 +37,6 @@ namespace Reservacion_Hotel
 
             myConnection.Close();
             MessageBox.Show("Connection Closed!");
-
-
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -53,11 +50,6 @@ namespace Reservacion_Hotel
 
             Form signup = new SignupModal();
             signup.ShowDialog();
-        }
-
-        private void RegistroAdministrador_Load(object sender, EventArgs e)
-        {
-            
         }
     }
 }

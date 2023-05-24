@@ -65,7 +65,7 @@
             this.CrearCuentaBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(158)))), ((int)(((byte)(71)))));
             this.CrearCuentaBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CrearCuentaBtn.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.CrearCuentaBtn.Location = new System.Drawing.Point(327, 521);
+            this.CrearCuentaBtn.Location = new System.Drawing.Point(340, 521);
             this.CrearCuentaBtn.Name = "CrearCuentaBtn";
             this.CrearCuentaBtn.Size = new System.Drawing.Size(137, 40);
             this.CrearCuentaBtn.TabIndex = 7;
